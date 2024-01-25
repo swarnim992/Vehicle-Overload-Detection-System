@@ -99,7 +99,7 @@ void Gsm()
 
     mySerial.println("AT+CMGF=1"); // Configuring TEXT mode
     updateSerial();
-  mySerial.println("AT+CMGS=\"+919284254871\"");//change ZZ with country code and xxxxxxxxxxx with phone number to sms
+  mySerial.println("AT+CMGS=\"+91XXXXXXXXXX\"");//change ZZ with country code and xxxxxxxxxxx with phone number to sms
     updateSerial();
     mySerial.print("Your Vehicle is Overloded and the weight is "); //text content
     updateSerial();
